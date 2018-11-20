@@ -1,0 +1,14 @@
+<div class="wrapper fadeInDown zero-raduis" id="content">
+    <div id="formContent">
+        <div class="fadeIn first">
+            <h2 class="my-5">Acceder</h2>
+        </div>
+
+        <form class="form-signin" ng-submit='loginvm.login()'>
+            <input type="email" id="email" class="fadeIn first zero-raduis" name="email" placeholder="Correo electrónico" ng-model='loginvm.email'>
+            <input type="password" id="password" class="fadeIn third zero-raduis" name="password" placeholder="Contraseña"
+                ng-model='loginvm.password'>
+            <input type="submit" class="fadeIn fourth zero-raduis" value="login">
+        </form>
+    </div>
+</div>
